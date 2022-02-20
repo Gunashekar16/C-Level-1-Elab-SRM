@@ -1,0 +1,15 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-Phonenix mall in the
+
+#include <stdio.h>
+int main()
+{
+int n,m,a;
+int noofstones;
+scanf("%d%d%d",&n,&m,&a);
+noofstones=((m+a-1)/a)*((n+a-1)/a);
+printf("%d\n",noofstones);
+	return 0;
+}

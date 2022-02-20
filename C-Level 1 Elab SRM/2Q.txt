@@ -1,0 +1,16 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-The Electricity Officer has
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{int unitconsumed,costperunit;
+int total;
+scanf("%d%d",&unitconsumed,&costperunit);
+total=pow(unitconsumed,costperunit);
+printf("%d",total);
+
+	return 0;
+}

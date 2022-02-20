@@ -1,0 +1,17 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-On one beautiful Sunday 
+
+#include <stdio.h>
+int main()
+{
+    float num1,num2;
+    double resnum1,resnum2;
+    scanf("%f%f",&num1,&num2);
+    resnum1=1,resnum2=1;
+    resnum1=(double)(num1);
+    resnum2=(double)(num2);
+    printf("%f\n%f",resnum1,resnum2);
+	return 0;
+}

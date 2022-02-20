@@ -1,0 +1,18 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-Nancy bought apple
+
+#include <stdio.h>
+int main()
+{int billamt,amtgiven;
+scanf("%d",&billamt);
+scanf("%d",&amtgiven);
+int a,b;
+a=(billamt/amtgiven);
+b=(billamt%amtgiven);
+printf("Quotient:%d\n",a);
+printf("Remainder:%d\n",b);
+
+	return 0;
+}

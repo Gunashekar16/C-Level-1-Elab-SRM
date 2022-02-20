@@ -1,0 +1,24 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-Rathik has organized 
+
+#include <stdio.h>
+int main()
+{
+    int testnum1,testnum2;
+    int sum,sub,mult,mod;
+    float div;
+    scanf("%d%d",&testnum1,&testnum2);
+    sum=testnum1+testnum2;
+    printf("Addition : %d",sum);
+    sub=testnum1-testnum2;
+    printf("\nSubtraction : %d",sub);
+    mult=testnum1*testnum2;
+    printf("\nMultiplication : %d",mult);
+    div=(float)(testnum1)/testnum2;
+    printf("\nDivision : %.3f",div);
+    mod=testnum1%testnum2;
+    printf("\nModulus : %d",mod);
+	return 0;
+}

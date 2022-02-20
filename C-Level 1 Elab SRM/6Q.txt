@@ -1,0 +1,14 @@
+Course:	C	
+Session:Input & Output	
+Question Information:Level 1
+Question:-Bitina is Playing chess
+
+#include <stdio.h>
+int main(){
+int n,m;
+int maxscore;
+scanf("%d %d",&n,&m);
+maxscore=2*(n*m)-(n+m);
+printf("%d",maxscore);
+	return 0;
+}
